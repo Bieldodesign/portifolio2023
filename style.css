@@ -246,6 +246,7 @@ nav > img{
     top: 20%;
     padding: 10px
   }
+
   .link{
     /* text-decoration: none; */
     color: #000000;
@@ -309,8 +310,16 @@ nav > img{
     #open{
       display: none;
     }
-    .imagens-design > img{
-      width: 40%;
+    .imagens-design {
+      height: 40%;
+      padding: 20px;
+    }
+    .imagens-web-design{
+      height: 40%;
+      padding: 20px;
+    }
+    .site{
+      height: 30%;
     }
     .fundotxt-home{
       background: lightgrey;
