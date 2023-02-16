@@ -201,8 +201,6 @@ nav > img{
     margin-bottom:15%;
   }
 
-  
-
 .table-image{
     width: 70%;
   }
@@ -217,10 +215,6 @@ nav > img{
   margin-top: 5%;
   text-align: center;
 }
-#design > img{
-  padding: 10px;
-}
-
   .imagens-design{
     display: flex;
     justify-content: space-around;
@@ -242,11 +236,6 @@ nav > img{
     margin-top: 5%;
   }
 
-  #web-design > div > img{
-    /* width: 20%; */
-    height: 20%; 
-  }
-
   .imagens-web-design{
     display: flex;
     justify-content: space-around;
@@ -255,8 +244,19 @@ nav > img{
     gap: 10px;
     height: 700px;
     top: 20%;
+    padding: 10px
+  }
+  .link{
+    /* text-decoration: none; */
+    color: #000000;
+    background-color: antiquewhite;
+    padding:5px 20px;
+    border: 2px solid #000000;
+    box-shadow: -4px 6px 0px #000000;
+    border-radius: 24px;
   }
 
+  
   #contact{
     background-color: #6AB956;
     width: 100%;
@@ -278,8 +278,9 @@ nav > img{
     text-decoration: none;
     color: #000000;
   }
-  .cantact_conteudo > img{
+  .cantact_conteudo > a > img{
     width: 40px;
+    padding: 0px 20px 0px 0px;
   }
 
   footer{
@@ -310,5 +311,9 @@ nav > img{
     }
     .imagens-design > img{
       width: 40%;
+    }
+    .fundotxt-home{
+      background: lightgrey;
+      margin: 50% 0px 0px 0px ;
     }
   }
